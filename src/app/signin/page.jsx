@@ -44,39 +44,39 @@ export default function LoginPage() {
                     <div className="flex flex-col items-center">
                         <div className="flex -space-x-2 mb-2">
                             <Image
-                                src="/avatar-1.png"
+                                src="/users/saroj.jpg"
                                 alt="User"
-                                width={32}
-                                height={32}
-                                className="w-8 h-8 rounded-full border-2 border-white"
+                                width={24}
+                                height={24}
+                                className="w-6 h-6 rounded-full border-2 border-white"
                             />
                             <Image
-                                src="/avatar-2.png"
+                                src="/users/suraj.jpg"
                                 alt="User"
-                                width={32}
-                                height={32}
-                                className="w-8 h-8 rounded-full border-2 border-white"
+                                width={24}
+                                height={24}
+                                className="w-6 h-6 rounded-full border-2 border-white"
                             />
                             <Image
-                                src="/avatar-3.png"
+                                src="/users/sudip.jpg"
                                 alt="User"
-                                width={32}
-                                height={32}
-                                className="w-8 h-8 rounded-full border-2 border-white"
+                                width={24}
+                                height={24}
+                                className="w-6 h-6 rounded-full border-2 border-white"
                             />
                             <Image
-                                src="/avatar-4.png"
+                                src="/users/biyanak.jpg"
                                 alt="User"
-                                width={32}
-                                height={32}
-                                className="w-8 h-8 rounded-full border-2 border-white"
+                                width={24}
+                                height={24}
+                                className="w-6 h-6 rounded-full border-2 border-white"
                             />
                             <div className="w-8 h-8 rounded-full bg-gray-100 border-2 border-white flex items-center justify-center">
-                                <span className="text-xs font-medium text-gray-500">+5k</span>
+                                <span className="text-xs font-medium text-gray-500">+8</span>
                             </div>
                         </div>
                         <p className="text-center text-sm font-medium text-gray-700 mb-4">
-                            Trusted by <span className="font-bold">10k+</span> creators
+                            Trusted by <span className="font-bold">10+</span> creators
                         </p>
 
                         {/* Trustpilot Rating */}
@@ -96,7 +96,7 @@ export default function LoginPage() {
                             </div>
                             <span className="text-sm font-medium">Excellent</span>
                         </div>
-                        <p className="text-xs text-gray-500">Based on 1,200+ reviews</p>
+                        <p className="text-xs text-gray-500">Based on 10+ reviews</p>
                     </div>
 
                     {/* Help Link */}
