@@ -20,9 +20,6 @@ export default function Home() {
       {/* HowItWorks Section */}
       <HowItWorks />
 
-      {/* ComparisonSection Section */}
-      <ComparisonSection />
-
       {/* InAction Section */}
       <InAction />
 
