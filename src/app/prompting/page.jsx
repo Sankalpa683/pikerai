@@ -97,7 +97,7 @@ export default function CreatePage() {
         </header>
 
         {/* Main Area */}
-        <main className="flex-1 flex flex-col items-center justify-center p-6">
+        <main className="flex-1 text-black bg-gray-50 flex flex-col items-center justify-center p-6">
           <div className="w-full max-w-3xl mx-auto">
             <div className="text-center mb-8">
               <h1 className="text-3xl font-bold mb-2">Hello <span className="text-blue-500">{userName}</span></h1>
