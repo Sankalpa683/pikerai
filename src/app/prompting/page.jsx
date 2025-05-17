@@ -53,7 +53,7 @@ export default function CreatePage() {
   return (
     <div className="min-h-screen text-black bg-gray-50 flex">
       {/* Sidebar */}
-      <div className="w-64 text-black bg-white border-r border-gray-200 hidden md:block">
+      <div className="w-64 text-black bg-gray-50 border-r border-gray-200 hidden md:block">
         <div className="p-4 border-b border-gray-200">
           <Link href="/" className="flex items-center gap-2">
             <Image src="/logo.jpg" alt="Pikera AI Logo" width={32} height={32} className="w-8 h-8" />
