@@ -79,7 +79,7 @@ export default function CreatePage() {
         {/* Header */}
         <header className="bg-white border-b border-gray-200 py-4 px-6 flex items-center justify-between">
           <div className="md:hidden flex items-center gap-2">
-            <Image src="/logo.png" alt="Pikera AI Logo" width={32} height={32} className="w-8 h-8" />
+            <Image src="/logo.jpg" alt="Pikera AI Logo" width={32} height={32} className="w-8 h-8" />
             <span className="font-bold text-lg">Pikera AI</span>
           </div>
 
