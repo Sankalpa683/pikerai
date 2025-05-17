@@ -137,7 +137,7 @@ export default function CreatePage() {
                   </button>
                 </div>
 
-                <div className="flex items-center gap-3">
+                <div className="flex text-black bg-gray-50 items-center gap-3">
                   <span className="text-xs text-gray-500">{prompt.length} / 500</span>
                   <button
                     type="submit"
