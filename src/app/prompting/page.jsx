@@ -166,7 +166,7 @@ export default function CreatePage() {
 
             {/* Results */}
             {isLoading && (
-              <div className="mt-8 text-center">
+              <div className="mt-8 text-black bg-gray-50 text-center">
                 <div className="inline-block animate-spin rounded-full h-8 w-8 border-4 border-gray-300 border-t-blue-600"></div>
                 <p className="mt-4 text-gray-600">Creating your thumbnails...</p>
                 <p className="text-sm text-gray-500">This might take a few seconds</p>
@@ -174,7 +174,7 @@ export default function CreatePage() {
             )}
 
             {thumbnails.length > 0 && (
-              <div className="mt-12">
+              <div className="mt-12 text-black bg-gray-50">
                 <br />
                 <h2 className="text-xl font-bold text-center mb-6">Your Generated Thumbnail</h2>
                 <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
