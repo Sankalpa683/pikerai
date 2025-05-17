@@ -17,12 +17,12 @@ export default function HowItWorks() {
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {/* Step 1 */}
           <div className="bg-white rounded-xl p-6 shadow-sm">
-            <div className="mb-6 aspect-[4/3] relative rounded-lg overflow-hidden bg-gray-100">
+            <div className="mb-6 aspect-[5/3] relative rounded-lg overflow-hidden bg-gray-100">
               <img 
-                src="https://thumbgams-landing.vercel.app/_next/image?url=%2Flogin.webp&w=640&q=75" 
+                src="/thumbnails/loginacc.png" 
                 alt="Describe your thumbnail" 
                 fill 
-                className="object-cover"
+                className="object-full w-full h-full"
               />
             </div>
             <div className="flex items-center gap-2 mb-3">
@@ -38,12 +38,12 @@ export default function HowItWorks() {
 
           {/* Step 2 */}
           <div className="bg-white rounded-xl p-6 shadow-sm">
-            <div className="mb-6 aspect-[4/3] relative rounded-lg overflow-hidden bg-gray-100">
+            <div className="mb-6 aspect-[5/3] relative rounded-lg overflow-hidden bg-gray-100">
               <img 
-                src="https://thumbgams-landing.vercel.app/_next/image?url=%2Fprompt.webp&w=640&q=75" 
+                src="/thumbnails/ideaconcept.png" 
                 alt="AI generates thumbnails" 
                 fill 
-                className="object-cover"
+                className="object-cover w-full h-full"
               />
             </div>
             <div className="flex items-center gap-2 mb-3">
@@ -59,12 +59,12 @@ export default function HowItWorks() {
 
           {/* Step 3 */}
           <div className="bg-white rounded-xl p-6 shadow-sm">
-            <div className="mb-6 aspect-[4/3] relative rounded-lg overflow-hidden bg-gray-100">
+            <div className="mb-6 aspect-[5/3] relative rounded-lg overflow-hidden bg-gray-100">
               <img 
-                src="https://thumbgams-landing.vercel.app/_next/image?url=%2Ffinally.webp&w=640&q=75" 
+                src="/thumbnails/youredone.png" 
                 alt="Download and use" 
                 fill 
-                className="object-cover"
+                className="object-cover w-full h-full"
               />
             </div>
             <div className="flex items-center gap-2 mb-3">
