@@ -4,7 +4,7 @@ import { DiscIcon as DiscordLogo, Apple, Chrome } from "lucide-react"
 
 export default function LoginPage() {
     return (
-        <div className="flex min-h-screen">
+        <div className="flex min-h-screen text-black">
             {/* Left Side - Login Form */}
             <div className="w-full lg:w-1/2 bg-gradient-to-br from-red-50 to-yellow-50 flex flex-col items-center justify-center px-8 py-12">
                 <div className="w-full max-w-md">

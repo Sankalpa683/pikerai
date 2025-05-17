@@ -6,7 +6,7 @@ import Footer from "../component/footer"
 
 export default function PricingPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen text-black bg-white">
       {/* Navigation */}
       <Nav />
 
