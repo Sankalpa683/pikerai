@@ -75,7 +75,7 @@ export default function CreatePage() {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 flex flex-col">
+      <div className="flex-1 text-black bg-gray-50 flex flex-col">
         {/* Header */}
         <header className="bg-white border-b border-gray-200 py-4 px-6 flex items-center justify-between">
           <div className="md:hidden flex items-center gap-2">
