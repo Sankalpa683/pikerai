@@ -63,12 +63,12 @@ const hero = () => {
                 </p>
 
                 {/* CTA Button */}
-                <div className="mt-10 flex justify-center gap-4">
+                <div className="mt-10 flex flex-wrap justify-center gap-4">
                     <Link
                         href="/start"
-                        className="relative px-8 py-3 bg-black text-white font-bold rounded-full text-lg group overflow-hidden"
+                        className="relative px-8 py-3 w-fit bg-black text-white font-bold rounded-full text-lg group overflow-hidden"
                     >
-                        <span className="relative z-10 flex items-center gap-2">
+                        <span className="relative text-center md:text-left z-10 flex items-center gap-2">
                             Join Waitlist Now <span className="ml-1">→</span>
                         </span>
                         <span className="absolute inset-0 bg-gradient-to-r from-red-500 via-yellow-500 to-red-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl"></span>
@@ -76,7 +76,7 @@ const hero = () => {
                     </Link>
                     <Link
                         href="/start"
-                        className="relative px-8 py-3 bg-white border-black text-black font-bold rounded-full text-lg group overflow-hidden"
+                        className="relative px-8 py-3 w-fit bg-white border-black text-black font-bold rounded-full text-lg group overflow-hidden"
                     >
                         <span className="relative z-10 flex items-center gap-2">
                             View Examples <span className="ml-1">→</span>
