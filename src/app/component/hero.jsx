@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image"
 import Link from "next/link"
-import { Play } from "lucide-react"
+import { Play, Star } from "lucide-react"
 
 const hero = () => {
     return (
@@ -75,6 +75,94 @@ const hero = () => {
                         <span className="absolute inset-0 bg-black rounded-full group-hover:scale-[0.97] transition-transform duration-300"></span>
                     </Link>
                 </div>
+
+                {/* Reviews Section */}
+                <div className="mt-16 max-w-4xl mx-auto">
+                    <div className="text-center mb-8">
+                        <div className="flex items-center justify-center gap-1 mb-2">
+                            {[1, 2, 3, 4, 5].map((star) => (
+                                <Star key={star} className="w-5 h-5 text-yellow-500 fill-current" />
+                            ))}
+                            <span className="ml-2 text-sm font-medium text-gray-700">4.9/5 from 1,200+ reviews</span>
+                        </div>
+                    </div>
+
+                    <div className="grid md:grid-cols-3 gap-6">
+                        {/* Review 1 */}
+                        <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
+                            <div className="flex items-center gap-1 mb-3">
+                                {[1, 2, 3, 4, 5].map((star) => (
+                                    <Star key={star} className="w-4 h-4 text-yellow-500 fill-current" />
+                                ))}
+                            </div>
+                            <p className="text-gray-700 mb-4">
+                                "Pikera AI completely transformed my YouTube channel. My click-through rates increased by 300% in just
+                                one month!"
+                            </p>
+                            <div className="flex items-center gap-3">
+                                <Image src="/users/nischal.jpg" alt="Nischal Gautam" width={40} height={40} className="w-10 h-10 rounded-full" />
+                                <div>
+                                    <p className="font-medium text-gray-900">Nischal Gautam</p>
+                                    <p className="text-sm text-gray-500">Tech YouTuber & Content Creator, 250K subs</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Review 2 */}
+                        <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
+                            <div className="flex items-center gap-1 mb-3">
+                                {[1, 2, 3, 4, 5].map((star) => (
+                                    <Star key={star} className="w-4 h-4 text-yellow-500 fill-current" />
+                                ))}
+                            </div>
+                            <p className="text-gray-700 mb-4">
+                                "I used to spend hours on Reels Cover Photos. Now I create professional ones in minutes. This tool is a
+                                game-changer!"
+                            </p>
+                            <div className="flex items-center gap-3">
+                                <Image
+                                    src="/users/krinzal.jpg"
+                                    alt="Krinzal Karki"
+                                    width={40}
+                                    height={40}
+                                    className="w-10 h-10 rounded-full"
+                                />
+                                <div>
+                                    <p className="font-medium text-gray-900">Krinzal Karki</p>
+                                    <p className="text-sm text-gray-500">Gaming Creator, 160+ followers</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Review 3 */}
+                        <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
+                            <div className="flex items-center gap-1 mb-3">
+                                {[1, 2, 3, 4, 5].map((star) => (
+                                    <Star key={star} className="w-4 h-4 text-yellow-500 fill-current" />
+                                ))}
+                            </div>
+                            <p className="text-gray-700 mb-4">
+                                "The AI understands exactly what makes thumbnails click-worthy. My views have doubled since I started
+                                using Pikera AI."
+                            </p>
+                            <div className="flex items-center gap-3">
+                                <Image
+                                    src="/users/sumeet.jpg"
+                                    alt="Sumeet Sharma"
+                                    width={40}
+                                    height={40}
+                                    className="w-10 h-10 rounded-full"
+                                />
+                                <div>
+                                    <p className="font-medium text-gray-900">Sumeet Sharma</p>
+                                    <p className="text-sm text-gray-500">SEO Expert & Blog Writter, 3k+ followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+             
 
                 {/* Thumbnail Examples */}
                 <div className="mt-16 max-w-5xl mx-auto">
