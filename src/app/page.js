@@ -3,6 +3,7 @@ import Link from "next/link"
 import { Play } from "lucide-react"
 import Nav from "./component/nav"
 import Hero from "./component/hero"
+import ThumbnailCategories from "./component/thumbnail-categories"
 import HowItWorks from "./component/how-it-works"
 import ComparisonSection from "./component/comparison-section"
 import InAction from "./component/in-action"
@@ -16,6 +17,9 @@ export default function Home() {
 
       {/* Hero Section */}
       <Hero />
+
+      {/* Hero Section */}
+      <ThumbnailCategories />
 
       {/* HowItWorks Section */}
       <HowItWorks />
