@@ -9,7 +9,7 @@ const thumbnailExamples = [
   {
     id: 1,
     title: "MINECRAFT CASTLE BUILD",
-    image: "/example-1.png",
+    image: "/example/minecraft.png",
     prompt:
       "Epic Minecraft castle build thumbnail with a massive medieval castle, dramatic lighting, excited player character pointing at the build, bold yellow text 'EPIC CASTLE BUILD', blue sky background",
     category: "Gaming",
@@ -19,7 +19,7 @@ const thumbnailExamples = [
   {
     id: 2,
     title: "iPhone 15 HONEST REVIEW",
-    image: "/example-2.png",
+    image: "/example/honest.png",
     prompt:
       "iPhone 15 review thumbnail with the phone prominently displayed, tech reviewer holding it with surprised expression, red and white text 'HONEST REVIEW', clean tech background with bokeh lights",
     category: "Tech",
@@ -29,7 +29,7 @@ const thumbnailExamples = [
   {
     id: 3,
     title: "MORNING ROUTINE 2024",
-    image: "/example-3.png",
+    image: "/example/morning.png",
     prompt:
       "Morning routine lifestyle thumbnail with a beautiful woman stretching in bed, golden hour lighting, cozy bedroom setting, elegant script font 'MORNING ROUTINE 2024', warm and inviting atmosphere",
     category: "Lifestyle",
@@ -39,7 +39,7 @@ const thumbnailExamples = [
   {
     id: 4,
     title: "PYTHON IN 10 MINUTES",
-    image: "/example-4.png",
+    image: "/example/python.png",
     prompt:
       "Python programming tutorial thumbnail with code snippets on screen, focused programmer typing, green matrix-style background, bold white text 'LEARN PYTHON IN 10 MINUTES', tech aesthetic",
     category: "Education",
@@ -49,7 +49,7 @@ const thumbnailExamples = [
   {
     id: 5,
     title: "PASSIVE INCOME SECRETS",
-    image: "/example-5.png",
+    image: "/example/passive.png",
     prompt:
       "Business thumbnail about passive income with money symbols, successful entrepreneur in suit, luxury background, gold and black color scheme, text 'PASSIVE INCOME SECRETS', professional look",
     category: "Business",
@@ -58,10 +58,10 @@ const thumbnailExamples = [
   },
   {
     id: 6,
-    title: "MARVEL MOVIE REACTION",
-    image: "/example-6.png",
+    title: "Fall of Avalon",
+    image: "/example/arena.png",
     prompt:
-      "Movie reaction thumbnail with shocked facial expression, Marvel movie poster in background, popcorn and cinema elements, red and blue text 'EPIC REACTION', dramatic lighting and composition",
+      "Can this game REPLACE ELDER SCROLLS!? Tainted Grail - Fall of Avalon",
     category: "Entertainment",
     views: "2.1M",
     ctr: "13.5%",
@@ -69,7 +69,7 @@ const thumbnailExamples = [
   {
     id: 7,
     title: "FORTNITE VICTORY ROYALE",
-    image: "/example-7.png",
+    image: "/example/fortnite.png",
     prompt:
       "Fortnite victory royale thumbnail with character doing victory dance, battle royale background with storm, bright colors, explosive effects, yellow text 'VICTORY ROYALE', action-packed scene",
     category: "Gaming",
@@ -89,7 +89,7 @@ const thumbnailExamples = [
   {
     id: 9,
     title: "HEALTHY MEAL PREP",
-    image: "/example-9.png",
+    image: "/example/meal.png",
     prompt:
       "Meal prep thumbnail with colorful healthy meals in containers, fresh ingredients around, bright kitchen setting, green and white text 'HEALTHY MEAL PREP', appetizing food photography",
     category: "Lifestyle",
@@ -252,7 +252,7 @@ export default function ExamplesPage() {
         {/* Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-16">
           <div className="text-center p-6 bg-gray-50 rounded-xl">
-            <div className="text-3xl font-bold text-blue-600 mb-2">22+</div>
+            <div className="text-3xl font-bold text-blue-600 mb-2">20+</div>
             <div className="text-gray-600">Example Thumbnails</div>
           </div>
           <div className="text-center p-6 bg-gray-50 rounded-xl">
@@ -260,8 +260,8 @@ export default function ExamplesPage() {
             <div className="text-gray-600">Average CTR</div>
           </div>
           <div className="text-center p-6 bg-gray-50 rounded-xl">
-            <div className="text-3xl font-bold text-red-600 mb-2">35M+</div>
-            <div className="text-gray-600">Total Views</div>
+            <div className="text-3xl font-bold text-red-600 mb-2">35k+</div>
+            <div className="text-gray-600">Total Views Generated</div>
           </div>
         </div>
       </section>
