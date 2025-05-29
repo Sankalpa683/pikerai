@@ -79,7 +79,7 @@ const thumbnailExamples = [
   {
     id: 8,
     title: "BEST LAPTOP 2024",
-    image: "/example-8.png",
+    image: "/example/laptop.png",
     prompt:
       "Laptop comparison thumbnail with multiple laptops arranged, tech reviewer pointing at the best one, clean white background, blue and orange text 'BEST LAPTOP 2024', professional product shot",
     category: "Tech",
@@ -99,7 +99,7 @@ const thumbnailExamples = [
   {
     id: 10,
     title: "CALCULUS EXPLAINED",
-    image: "/example-10.png",
+    image: "/example/calculus.png",
     prompt:
       "Math education thumbnail with calculus equations on blackboard, teacher pointing at formulas, academic setting, blue and white color scheme, text 'CALCULUS MADE EASY', educational atmosphere",
     category: "Education",
@@ -109,7 +109,7 @@ const thumbnailExamples = [
   {
     id: 11,
     title: "CRYPTO INVESTMENT GUIDE",
-    image: "/example-11.png",
+    image: "/example/crypto.png",
     prompt:
       "Cryptocurrency investment thumbnail with Bitcoin symbols, financial charts going up, professional investor, gold and green colors, text 'CRYPTO GUIDE 2024', modern financial aesthetic",
     category: "Business",
@@ -119,7 +119,7 @@ const thumbnailExamples = [
   {
     id: 12,
     title: "CELEBRITY GOSSIP UPDATE",
-    image: "/example-12.png",
+    image: "/example/news.png",
     prompt:
       "Celebrity gossip thumbnail with paparazzi-style photo, dramatic lighting, shocked expression, tabloid-style layout, pink and black text 'SHOCKING NEWS', entertainment magazine aesthetic",
     category: "Entertainment",
@@ -129,7 +129,7 @@ const thumbnailExamples = [
   {
     id: 13,
     title: "VALORANT ACE CLUTCH",
-    image: "/example-13.png",
+    image: "/example/valorant.png",
     prompt:
       "Valorant gaming thumbnail with agent character in action pose, tactical shooter background, neon colors, explosive effects, red text 'INSANE ACE CLUTCH', competitive gaming vibe",
     category: "Gaming",
@@ -139,7 +139,7 @@ const thumbnailExamples = [
   {
     id: 14,
     title: "AI TOOLS TESTED",
-    image: "/example-14.png",
+    image: "/example/aitools.png",
     prompt:
       "AI tools review thumbnail with futuristic interface, robot elements, tech reviewer with amazed expression, blue and purple gradient, text 'AI TOOLS TESTED', sci-fi aesthetic",
     category: "Tech",
@@ -149,7 +149,7 @@ const thumbnailExamples = [
   {
     id: 15,
     title: "FITNESS TRANSFORMATION",
-    image: "/example-15.png",
+    image: "/example/fitness.png",
     prompt:
       "Fitness transformation thumbnail with before/after split screen, muscular person flexing, gym background, motivational text 'AMAZING TRANSFORMATION', orange and black colors, inspiring mood",
     category: "Lifestyle",
@@ -159,7 +159,7 @@ const thumbnailExamples = [
   {
     id: 16,
     title: "JAVASCRIPT CRASH COURSE",
-    image: "/example-16.png",
+    image: "/example/javascript.png",
     prompt:
       "JavaScript programming thumbnail with code editor on screen, developer typing rapidly, dark theme IDE, yellow JavaScript logo, text 'JS CRASH COURSE', modern coding setup",
     category: "Education",
@@ -169,7 +169,7 @@ const thumbnailExamples = [
   {
     id: 17,
     title: "DROPSHIPPING SUCCESS",
-    image: "/example-17.png",
+    image: "/example/dropshipping.png",
     prompt:
       "Dropshipping business thumbnail with packages and shipping boxes, successful entrepreneur with laptop, money symbols, green and gold colors, text 'DROPSHIPPING SECRETS', e-commerce theme",
     category: "Business",
@@ -179,52 +179,12 @@ const thumbnailExamples = [
   {
     id: 18,
     title: "MUSIC VIDEO REACTION",
-    image: "/example-18.png",
+    image: "/example/song.png",
     prompt:
       "Music reaction thumbnail with headphones on, emotional facial expression, music notes floating around, colorful background, text 'FIRST TIME HEARING', vibrant and energetic mood",
     category: "Entertainment",
     views: "1.3M",
     ctr: "11.6%",
-  },
-  {
-    id: 19,
-    title: "APEX LEGENDS WIN",
-    image: "/example-19.png",
-    prompt:
-      "Apex Legends thumbnail with champion character, battle royale arena background, victory celebration, orange and blue colors, text 'CHAMPION SQUAD', competitive gaming atmosphere",
-    category: "Gaming",
-    views: "2.8M",
-    ctr: "14.7%",
-  },
-  {
-    id: 20,
-    title: "GADGET UNBOXING",
-    image: "/example-20.png",
-    prompt:
-      "Tech unboxing thumbnail with hands opening premium package, luxury gadget inside, clean white background, excited reviewer face, text 'UNBOXING EXPERIENCE', premium product reveal",
-    category: "Tech",
-    views: "1.7M",
-    ctr: "10.9%",
-  },
-  {
-    id: 21,
-    title: "TRAVEL VLOG BALI",
-    image: "/example-21.png",
-    prompt:
-      "Bali travel vlog thumbnail with beautiful beach sunset, traveler with backpack, tropical paradise setting, warm colors, text 'BALI ADVENTURE', wanderlust and adventure theme",
-    category: "Lifestyle",
-    views: "2.2M",
-    ctr: "12.1%",
-  },
-  {
-    id: 22,
-    title: "PHYSICS EXPLAINED",
-    image: "/example-22.png",
-    prompt:
-      "Physics education thumbnail with scientific diagrams, laboratory setting, professor explaining concepts, blue and white academic colors, text 'PHYSICS MADE SIMPLE', educational and clear",
-    category: "Education",
-    views: "634K",
-    ctr: "8.3%",
   },
 ]
 
@@ -235,7 +195,7 @@ export default function ExamplesPage() {
   }
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white text-black">
         <Nav />
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-16">
