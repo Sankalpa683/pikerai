@@ -75,7 +75,7 @@ const hero = () => {
                         <span className="absolute inset-0 bg-black rounded-full group-hover:scale-[0.97] transition-transform duration-300"></span>
                     </Link>
                     <Link
-                        href="/start"
+                        href="/example"
                         className="relative px-8 py-3 w-fit bg-white border-black text-black font-bold rounded-full text-lg group overflow-hidden"
                     >
                         <span className="relative z-10 flex items-center gap-2">
