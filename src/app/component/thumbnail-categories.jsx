@@ -46,24 +46,24 @@ const categories = [
     id: "education",
     name: "Education",
     thumbnails: [
-      { id: 1, title: "Calculus EXPLAINED", image: "/education-1.png" },
-      { id: 2, title: "MATH MADE EASY", image: "/education-2.png" },
-      { id: 3, title: "HISTORY FACTS", image: "/education-3.png" },
-      { id: 4, title: "CODING TUTORIAL", image: "/education-4.png" },
-      { id: 5, title: "LANGUAGE LEARNING", image: "/education-5.png" },
-      { id: 6, title: "STUDY TIPS", image: "/education-6.png" },
+      { id: 1, title: "Calculus EXPLAINED", image: "/category/education-1.png" },
+      { id: 2, title: "MATH MADE EASY", image: "/category/education-2.png" },
+      { id: 3, title: "HISTORY FACTS", image: "/category/education-3.png" },
+      { id: 4, title: "CODING TUTORIAL", image: "/category/education-4.png" },
+      { id: 5, title: "LANGUAGE LEARNING", image: "/category/education-5.png" },
+      { id: 6, title: "STUDY TIPS", image: "/category/education-6.png" },
     ],
   },
   {
     id: "business",
     name: "Business",
     thumbnails: [
-      { id: 1, title: "STARTUP SUCCESS", image: "/business-1.png" },
-      { id: 2, title: "MARKETING TIPS", image: "/business-2.png" },
-      { id: 3, title: "PASSIVE INCOME", image: "/business-3.png" },
-      { id: 4, title: "INVESTMENT GUIDE", image: "/business-4.png" },
-      { id: 5, title: "ENTREPRENEUR LIFE", image: "/business-5.png" },
-      { id: 6, title: "BUSINESS GROWTH", image: "/business-6.png" },
+      { id: 1, title: "STARTUP SUCCESS", image: "/category/business-1.png" },
+      { id: 2, title: "MARKETING TIPS", image: "/category/business-2.png" },
+      { id: 3, title: "PASSIVE INCOME", image: "/category/business-3.png" },
+      { id: 4, title: "INVESTMENT GUIDE", image: "/category/business-4.png" },
+      { id: 5, title: "ENTREPRENEUR LIFE", image: "/category/business-5.png" },
+      { id: 6, title: "BUSINESS GROWTH", image: "/category/business-6.png" },
     ],
   },
   {
@@ -129,9 +129,7 @@ export default function ThumbnailCategories() {
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
-                  <h3 className="text-white font-bold text-sm">{thumbnail.title}</h3>
-                </div>
+              
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/20">
                   <div className="w-12 h-12 rounded-full bg-white/90 flex items-center justify-center">
                     <Play className="w-5 h-5 text-black ml-1" />
