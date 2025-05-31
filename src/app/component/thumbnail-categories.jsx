@@ -82,7 +82,7 @@ const categories = [
 ]
 
 export default function ThumbnailCategories() {
-  const [activeCategory, setActiveCategory] = useState("gaming")
+  const [activeCategory, setActiveCategory] = useState("lifestyle")
 
   const currentThumbnails = categories.find((cat) => cat.id === activeCategory)?.thumbnails || []
 
