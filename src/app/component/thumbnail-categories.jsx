@@ -7,6 +7,19 @@ import { Play } from "lucide-react"
 
 const categories = [
   {
+    id: "lifestyle",
+    name: "Documentary",
+    thumbnails: [
+      { id: 1, title: "MORNING ROUTINE 2024", image: "/category/lifestyle-1.png" },
+      { id: 3, title: "HEALTHY RECIPES", image: "/category/lifestyle-3.png" },
+      { id: 4, title: "FITNESS JOURNEY", image: "/category/lifestyle-4.png" },
+      { id: 5, title: "TRAVEL VLOG", image: "/category/lifestyle-5.png" },
+      { id: 6, title: "SELF CARE TIPS", image: "/category/lifestyle-6.png" },
+      { id: 2, title: "HOME MAKEOVER", image: "/category/lifestyle-2.png" },
+
+    ],
+  },
+  {
     id: "gaming",
     name: "Gaming",
     thumbnails: [
@@ -28,18 +41,6 @@ const categories = [
       { id: 4, title: "CAMERA COMPARISON", image: "/category/tech-4.png" },
       { id: 5, title: "GADGET UNBOXING", image: "/category/tech-5.png" },
       { id: 6, title: "TECH PREDICTIONS", image: "/category/tech-6.png" },
-    ],
-  },
-  {
-    id: "lifestyle",
-    name: "Documentary",
-    thumbnails: [
-      { id: 1, title: "MORNING ROUTINE 2024", image: "/category/lifestyle-1.png" },
-      { id: 2, title: "HOME MAKEOVER", image: "/category/lifestyle-2.png" },
-      { id: 3, title: "HEALTHY RECIPES", image: "/category/lifestyle-3.png" },
-      { id: 4, title: "FITNESS JOURNEY", image: "/category/lifestyle-4.png" },
-      { id: 5, title: "TRAVEL VLOG", image: "/category/lifestyle-5.png" },
-      { id: 6, title: "SELF CARE TIPS", image: "/category/lifestyle-6.png" },
     ],
   },
   {
