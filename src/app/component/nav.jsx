@@ -8,10 +8,9 @@ const nav = () => {
         <>
             <header className="container mx-auto px-4 py-6 flex justify-between items-center">
                 <Link href='/'>
-                    <div className="flex items-center justify-center gap-2">
-                        <img src="/logo.jpg" alt="Pikera AI icon" width={40} height={40} className="w-10 rounded-full h-10" />
-                        <span className="font-bold hidden text-xl">Pikera AI</span>
-                        <img src='/pikeralogo.png' alt="Pikera AI icon" width={150} height={40} />
+                    <div className="flex items-center gap-2">
+                        <img src="/logo.jpg" alt="Pikera AI Logo" width={40} height={40} className="w-10 rounded-full h-10" />
+                        <span className="font-bold text-xl">Pikera AI</span>
                     </div>
                 </Link>
                 <nav className="flex items-center gap-4">
