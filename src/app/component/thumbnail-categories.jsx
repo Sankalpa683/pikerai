@@ -67,18 +67,7 @@ const categories = [
       { id: 6, title: "BUSINESS GROWTH", image: "/category/business-6.png" },
     ],
   },
-  {
-    id: "entertainment",
-    name: "Entertainment",
-    thumbnails: [
-      { id: 1, title: "MOVIE REACTIONS", image: "/entertainment-1.png" },
-      { id: 2, title: "COMEDY SKITS", image: "/entertainment-2.png" },
-      { id: 3, title: "MUSIC COVERS", image: "/entertainment-3.png" },
-      { id: 4, title: "CELEBRITY NEWS", image: "/entertainment-4.png" },
-      { id: 5, title: "VIRAL TRENDS", image: "/entertainment-5.png" },
-      { id: 6, title: "BEHIND SCENES", image: "/entertainment-6.png" },
-    ],
-  },
+  
 ]
 
 export default function ThumbnailCategories() {
