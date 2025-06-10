@@ -123,7 +123,7 @@ export default function SignInPage() {
           {/* Logo */}
           <div className="flex flex-col items-center mb-12">
             <Link href="/" className="flex items-center gap-3 mb-4">
-              <Image src="/logo.jpg" alt="Pikera AI Logo" width={48} height={48} className="w-12 h-12 rounded-xl" />
+              <Image src="/logo.png" alt="Pikera AI Logo" width={48} height={48} className="w-12 h-12 rounded-xl" />
               <span className="font-bold text-3xl text-gray-900">Pikera AI</span>
             </Link>
             <div className="text-center">
