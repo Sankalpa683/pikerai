@@ -149,7 +149,7 @@ export default function PromptingPage() {
       <div className="w-72 bg-white border-r border-gray-200 hidden lg:block">
         <div className="p-6 border-b border-gray-200">
           <Link href="/" className="flex items-center gap-3">
-            <Image src="/logo.png" alt="Pikera AI Logo" width={36} height={36} className="w-9 h-9 rounded-lg" />
+            <Image src="/logo.jpg" alt="Pikera AI Logo" width={36} height={36} className="w-9 h-9 rounded-lg" />
             <span className="font-bold text-xl text-gray-900">Pikera AI</span>
           </Link>
         </div>
@@ -211,7 +211,7 @@ export default function PromptingPage() {
         <header className="bg-white border-b border-gray-200 px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="lg:hidden flex items-center gap-3">
-              <Image src="/logo.png" alt="Pikera AI Logo" width={32} height={32} className="w-8 h-8 rounded-lg" />
+              <Image src="/logo.jpg" alt="Pikera AI Logo" width={32} height={32} className="w-8 h-8 rounded-lg" />
               <span className="font-bold text-lg">Pikera AI</span>
             </div>
 
