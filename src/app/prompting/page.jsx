@@ -593,7 +593,7 @@ export default function PromptingPage() {
               <Menu className="w-5 h-5" />
             </button>
             <Link href="/" className="flex items-center gap-2">
-              <Image src="/logo.png" alt="Pikera AI Logo" width={28} height={28} className="w-7 h-7 rounded-lg" />
+              <Image src="/logo.jpg" alt="Pikera AI Logo" width={28} height={28} className="w-7 h-7 rounded-lg" />
               <span className="font-bold text-lg text-gray-900">Pikera AI</span>
             </Link>
           </div>
@@ -624,7 +624,7 @@ export default function PromptingPage() {
             <div className="relative w-80 max-w-[85vw] bg-white shadow-xl">
               <div className="flex items-center justify-between p-4 border-b border-gray-200">
                 <Link href="/" className="flex items-center gap-3">
-                  <Image src="/logo.png" alt="Pikera AI Logo" width={32} height={32} className="w-8 h-8 rounded-lg" />
+                  <Image src="/logo.jpg" alt="Pikera AI Logo" width={32} height={32} className="w-8 h-8 rounded-lg" />
                   <span className="font-bold text-xl text-gray-900">Pikera AI</span>
                 </Link>
                 <button
@@ -712,7 +712,7 @@ export default function PromptingPage() {
         <div className="hidden lg:block w-72 bg-white border-r border-gray-200 fixed h-full">
           <div className="p-6 border-b border-gray-200">
             <Link href="/" className="flex items-center gap-3">
-              <Image src="/logo.png" alt="Pikera AI Logo" width={36} height={36} className="w-9 h-9 rounded-lg" />
+              <Image src="/logo.jpg" alt="Pikera AI Logo" width={36} height={36} className="w-9 h-9 rounded-lg" />
               <span className="font-bold text-xl text-gray-900">Pikera AI</span>
             </Link>
           </div>
