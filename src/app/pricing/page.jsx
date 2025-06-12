@@ -304,7 +304,7 @@ export default function PricingPage() {
             Join thousands of creators who are boosting their click-through rates with Pikera AI.
           </p>
           <Link
-            href="/signup"
+            href="/start"
             className="inline-block px-8 py-4 bg-white text-blue-600 font-bold rounded-full text-lg hover:bg-blue-50 transition-colors"
           >
             Start Your Free Trial
