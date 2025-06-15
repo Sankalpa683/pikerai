@@ -8,7 +8,9 @@ export async function POST(req: Request) {
       return NextResponse.json({ success: false, error: "Prompt is required" }, { status: 400 })
     }
 
-    const response = await fetch("https://www.ni3.app/api/generateImage", {
+    //https://www.ni3.app/api/generateImage 
+    
+    const response = await fetch("https://www.ni3.app/api/generateimagesss", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
