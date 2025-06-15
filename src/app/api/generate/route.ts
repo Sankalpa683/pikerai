@@ -25,12 +25,12 @@ export async function POST(req: Request) {
     const data = await response.json()
 
     if (!data.success) {
-      return NextResponse.json({ success: false, error: "Failed to generate image" }, { status: 500 })
+      return NextResponse.json({ success: false, error: "We're working on Pikera AI, Stay Turned" }, { status: 500 })
     }
 
     return NextResponse.json(data)
   } catch (error) {
     console.error("Error generating image:", error)
-    return NextResponse.json({ success: false, error: "Internal server error" }, { status: 500 })
+    return NextResponse.json({ success: false, error: "We're working on Pikera AI, Stay Turned" }, { status: 500 })
   }
 }
