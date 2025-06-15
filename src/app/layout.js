@@ -80,6 +80,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="4f2a1984-c6be-4265-a51a-0b413f3e924e"></script>
         {/* Structured data for Google (JSON-LD) */}
         <script
           type="application/ld+json"
